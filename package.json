@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "resume:init": "resume init",
+    "resume:export": "resume export",
+    "wkhtmltopdf": "wkhtmltopdf"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.11.2",
+    "jsonresume-theme-kendall": "^0.1.19",
+    "jsonresume-theme-kwan": "0.0.2",
+    "jsonresume-theme-short": "^0.1.7",
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "node-wkhtmltopdf": "^2.0.0",
+    "resume-cli": "^0.4.19",
+    "wkhtmltopdf": "^0.3.4"
+  }
+}
